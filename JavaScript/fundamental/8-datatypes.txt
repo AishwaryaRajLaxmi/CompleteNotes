@@ -1,0 +1,75 @@
+#DataTypes:
+-----------
+
+->In programming, data types is an important concept.
+
+->To be able to operate on variables, it is important to know something about the type.
+
+ example:
+    let x=16 + "Volvo"; //it does not make any sense adding a number with string but javascript will treat it as given below:
+      let x = "16" + "Volvo";
+      //output:16Volvo
+
+      let x = 16 + 4 + "Volvo";
+      //output=20Volvo
+
+      ->In the first example, JavaScript treats 16 and 4 as numbers, until it reaches "Volvo".
+
+     ->In the second example, since the first operand is a string, all operands are treated as strings.
+
+#Note:-When adding a number and a string, JavaScript will treat the number as a string.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#JavaScript Types are Dynamic
+->JavaScript has dynamic types. This means that the same variable can be used to hold different data types
+
+->Javascript is a dynamic typing language. When we declare a variable, we do not need to specify what type this variable is. Javascript engine infers what type this variable is based on the value assigned to at run time.
+  
+  let x;           // Now x is undefined
+  x = 5;           // Now x is a Number
+  x = "John";      // Now x is a String
+ 
+
+ #VALUE
+  -->1.Primitive
+     example:
+       let firstName='jonas';
+       let age=20;
+
+  -->2.Object
+        let me ={
+        name : 'jonas'
+       };
+
+#JavaScript has different data types, primitive and non-primitive. There are seven primitive data types, Number, String, Boolean, NULL, Undefined and Symbol and one non-primitive data type ‘object’.
+
+ 1.Number:-Floating point numbers -> Used decimals and integers 
+  let age=23;
+
+2.String:Sequence of Characters -> Used for text
+  let name='Tanu';
+
+3.Boolean:Logical type that can only be true or false -> Used for taking decisions it returns only true or false
+  let age=true;
+
+4.Undefined:Value taken by a variable that is not yet defined.The variable is declared but doesn’t contain any value.
+  var a;
+  console.log(a); // This will return undefined.
+  
+5.Null:The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+
+   var a = null;
+   console.log(a);
+
+   ->If we check the data type of a using the typeof operator, we get:
+
+    example:
+     typeof(a);         // This returns object
+     This means the type of a null value is an object, not null.
+
+6.Symbol(ES2015):Value that is unique and cannot be changed(Not useful for now)
+
+7.BigInt(ES2020):Larger integers than the Number type can hold
+
+ Note:Js has dynamic typing we don't have to manually define the data type of the value stored in a variable.instead data types are determined automatically.

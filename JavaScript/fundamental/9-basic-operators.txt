@@ -1,0 +1,63 @@
+#Operators: Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc.
+
+->There are various operators supported by JavaScript:
+
+1.Arithmetic Operators (+,-,\*,/)
+2.Comparison Operators (==)
+3.Logical Operators (&&,||,!)
+4.Assignment Operators (=)
+5.Ternary Operators (?)
+6.typeof Operator (typeof)
+
+Operator Description Example
+
+-               Addition	                   10+20 = 30
+
+*               Subtraction	               20-10 = 10
+
+-               Multiplication	           10*20 = 200
+
+/ Division 20/10 = 2
+
+% Modulus (Remainder) 20%10 = 0
+
+++ Increment var a=10; a++; Now a = 11
+
+-- Decrement var a=10; a--; Now a = 9
+
+Example:
+const agejonas=2037-1991;
+const ageTanu=2022-2002;
+
+console.log(agejonas,ageTanu);//output: 46,20
+
+console.log(agejonas * 2, agejonas / 10, 2**3);
+//2 ** 3 means 2 to the power of 3= 2*2\*2
+
+const firstname='tanu';
+cosnt lastname='manu';
+console.log(firstname+' '+lastname);//output:tanumanu
+
+->Assignment operator
+let x=10+2;
+x+=10; //x=x+10;
+x++; //x=x+1;
+x--;
+
+->Comparison operator
+console.age(agejonas>ageTanu); //>, <, >=, <=> //output:true;
+
+== equal to
+=== equal value and equal type
+!= not equal
+!== not equal value or not equal type
+
+> greater than
+> less than
+> = greater than or equal to
+> <= less than or equal to
+> ? ternary operator
+
+=> Note: ‘+’ operator can also be used to concatenate (add) strings.
+Example:
+Y = "Geeks" + "for" + "Geeks" gives Y = "GeeksforGeeks"

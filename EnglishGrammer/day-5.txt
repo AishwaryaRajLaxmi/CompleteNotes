@@ -1,0 +1,29 @@
+#Parts of Speech
+Noun 
+Pronoun
+Verb 
+Adverb
+Adjective
+Preposition
+Conjunctions
+Interjections
+
+1.Noun: Noun is name of a place,person,thing etc.
+
+ Ram came.
+ The The Majal in in Agra
+
+ ->There are 5 types of nouns
+  i.Proper noun: Name of one specific thing, place etc.
+
+  ->They always start with a capital letter
+
+  Ram bought a new car. //Ram is proper noun
+
+  ii.Common Noun: Name given in generall to items.They are not usually capitalized.
+
+  Would you like a chocolate?
+  I will adopt a "cat" .// cat is common noun
+
+  iii.Collective
+                 

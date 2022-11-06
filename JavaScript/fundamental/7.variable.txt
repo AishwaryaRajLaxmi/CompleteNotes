@@ -1,0 +1,97 @@
+// How to create variables:
+var x;
+let y;
+
+// How to use variables:
+x = 5;
+y = 6;
+let z = x + y;
+
+->The JavaScript syntax defines two types of values:
+
+1.Fixed values
+2.Variable values
+
+->Fixed values are called Literals.
+
+->Variable values are called Variables.
+
+
+#Variables:-
+-----------
+->Variables are containers for storing data (storing data values).
+
+->In this example, x, y, and z, are variables, declared with the var keyword:
+
+           var x = 5;
+           var y = 6;
+           var z = x + y;
+
+There 4 Ways to Declare a JavaScript Variable:-
+-------------------------------------------------
+
+ ->var keyword is used in old javascript but it Doesn't remove from till now
+
+ ->The var keyword is used in all JavaScript code from 1995 to 2015.
+
+ ->The let and const keywords were added to JavaScript in 2015
+
+ ->The let keyword was introduced in ES6 (2015).
+
+->Variables defined with let cannot be Redeclared.
+
+->Variables defined with let must be Declared before use.
+
+->Variables defined with let have Block Scope.
+
+ ->The const is using for making the variable that it's value will be fixed in entire program and we can't change it
+
+ ->Eventhough we create and declare directly by variable name without using any extra keyword
+
+1.Using var
+   var x = 5;
+   var y = 30;
+
+2.Using let
+
+   let x = 5;
+   let y = 6;
+   let z = x + y;
+
+3.Using const
+
+const price1 = 5;
+const price2 = 6;
+let total = price1+ price2;
+
+4.Using nothing
+ x=10;
+ y=20;
+
+===========================================================
+when we need to print something we use console.log() statement
+
+ let js="amazing";
+ console.log(js);
+ //output:amazing
+
+ console.log('jonas');
+ //output:jonas
+
+
+let myFirstjob = 'Programmer';
+let myCurrentjob = 'teacher';
+let 3var = 'tanu'; //error
+
+->In javascript we can only start the vaiable name by using alphabet,dollar($) and underscore symbol
+
+->also variable name could be alphanumeric
+   let abc4 = 10;
+
+->Special symbol and predefined keyword are not allowed in js to creating variable
+
+->Variable name should be meaningful
+ let name = 'Tanu';
+ let value = 40;
+
+->

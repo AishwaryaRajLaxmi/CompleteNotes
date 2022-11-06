@@ -1,0 +1,92 @@
+What Is JavaScript Used For?
+-----------------------------
+------------------------------
+
+->The initial versions of the scripting language were for internal use only. After Netscape submitted it to ECMA International as a standard specification for web browsers, JavaScript pioneered the release of ECMAScript.
+
+->It was a general-purpose scripting language to ensure web pages’ interoperability across different browsers and devices.
+
+->JavaScript has continued to grow alongside new browsers like Mozilla Firefox and Google Chrome since then. The latter even started developing the first modern JavaScript engine, called V8, which compiles bytecode into native machine code.
+
+->Today, JavaScript has plenty of frameworks and libraries to simplify complex projects, such as AngularJS, jQuery, and ReactJS.
+
+->Originally run on the client-side, the JavaScript implementation has branched out to the server-side after the Node.js development ‒ a cross-platform server environment built on the Google Chrome JavaScript V8 engine.
+
+
+Glossary
+Oct 27, 2022
+
+Jordana A.
+
+7min Read
+
+What Is JavaScript? A Basic Introduction to JS for Beginners
+What Is JavaScript? A Basic Introduction to JS for Beginners
+Download Glossary For Web Beginners
+
+JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.
+
+Developers generally use JavaScript alongside HTML and CSS The scripting language works well with CSS in formatting HTML elements. However, JavaScript still maintains user interaction, something that CSS cannot do by itself.
+
+JavaScript’s implementations within the web, mobile application, and game development make the scripting language worth learning. You can do so via learning platforms like BitDegree or by exploring free JavaScript templates and applications on code hosting platforms like GitHub.
+
+What Is JavaScript?
+JavaScript Explained!
+What Is JavaScript Used For?
+1. Web and Mobile Apps
+2. Building Web Servers and Server Applications
+3. Interactive Behavior on Websites
+4. Game Development
+What Makes JavaScript Great?
+What Are JavaScript’s Weaknesses?
+How Does the JavaScript Code Work on Your Web Page?
+How Does JavaScript Differ from Other Programming Languages?
+How Do You Add JavaScript Code to a Website?
+What Is JavaScript FAQ
+What Is JavaScript and Why Is It Used?
+What Is the Difference Between Java and JavaScript?
+What Is JavaScript?
+JavaScript is a scripting language for creating dynamic web page content. It creates elements for improving site visitors’ interaction with web pages, such as dropdown menus, animated graphics, and dynamic background colors.
+
+JavaScript Explained!
+Watch our video to learn all about one of the most popular lightweight programming languages.
+
+
+youtube channel logo
+SUBSCRIBE FOR MORE EDUCATIONAL VIDEOS!
+Hostinger Academy
+subscribe
+Subscribe
+What Is JavaScript Used For?
+The initial versions of the scripting language were for internal use only. After Netscape submitted it to ECMA International as a standard specification for web browsers, JavaScript pioneered the release of ECMAScript.
+
+It was a general-purpose scripting language to ensure web pages’ interoperability across different browsers and devices.
+
+JavaScript has continued to grow alongside new browsers like Mozilla Firefox and Google Chrome since then. The latter even started developing the first modern JavaScript engine, called V8, which compiles bytecode into native machine code.
+
+Today, JavaScript has plenty of frameworks and libraries to simplify complex projects, such as AngularJS, jQuery, and ReactJS.
+
+Originally run on the client-side, the JavaScript implementation has branched out to the server-side after the Node.js development ‒ a cross-platform server environment built on the Google Chrome JavaScript V8 engine.
+
+While it caters to web-based programs the most, JavaScript programming features have other implementations in different areas. The following are several basic uses of JavaScript.
+
+1. Web and Mobile Apps
+The development of JavaScript frameworks, consisting of JavaScript code libraries, allows developers to use pre-written JavaScript code in their projects. It saves them time and effort from having to code programming features from scratch.
+
+Each JavaScript framework has features that aim to simplify the development and debugging process.
+
+For example, front-end JavaScript frameworks like jQuery and ReactJS improve design efficiency. They allow developers to reuse and update code components without affecting each other, function or value-wise.
+
+Meanwhile, mobile application development frameworks such as Cordova and Titanium make it possible to create native or hybrid applications.
+
+The implementation of JavaScript code in Node.js also plays an important role in web development. Node.js can reduce server response time due to its single-threaded nature and non-blocking architecture and omit delays.
+
+Node.js is also lightweight enough to serve as a scalable tool for microservices, allowing you to develop a single app comprising small services with individual processes.
+
+2. Building Web Servers and Server Applications
+Through Node.js, JavaScript lets developers build web servers and back-end infrastructure, saving you time and effort in web server creation.
+
+The built-in HTTP module allows you to develop a basic HTTP server that displays plain text when users access a web page. You can use either the Node.js own web server, Node-OS, or third-party ones like Microsoft Internet Information Services (IIS) and Apache to handle the HTTP requests.
+
+Keep in mind that Node-OS works best on the Linux operating systems since it’s built on top of the Linux kernel.
+

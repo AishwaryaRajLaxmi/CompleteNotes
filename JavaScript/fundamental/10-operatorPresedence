@@ -1,0 +1,23 @@
+#Operator Presedence: Operator precedence describes the order in which operations are performed in an arithmetic expression.
+
+Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+
+
+++	Increment	1	R -> L
+—	Decrement	1	R -> L
+—	Negation	1	R -> L
+!	NOT	1	R -> L
+*, /, %	Multiplication, division, modulus	2	L -> R
++, —	Addition, subtraction	3	L -> R
++	Concatenation	3	L -> R
+<, <=	Less than, less than, or equal	4	L -> R
+>, >=	Greater than, greater than, or equal	4	L -> R
+==	Equal	5	L -> R
+!=	Not equal	5	L -> R
+===	Identity	5	L -> R
+!==	Non-identity	5	L -> R
+&&	AND	6	L -> R
+||	OR	6	L -> R
+?:	Ternary	7	R -> L
+=	Assignment	8	R -> L
++=, -=, and so on.	Arithmetic assignment	8	R -> L

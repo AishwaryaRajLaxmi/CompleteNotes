@@ -1,0 +1,37 @@
+Comments:-
+----------
+->JavaScript comments can be used to explain JavaScript code, and to make it more readable.
+
+->JavaScript comments can also be used to prevent execution, when testing alternative code.
+
+->There are two ways to comment any statement
+
+1.Single line comment: Single line comments start with //.
+
+->Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
+
+   let x = 5;      // Declare x, give it the value of 5
+let y = x + 2;  // Declare y, give it the value of x + 2
+
+2.Multiline Comment: Multi-line comments start with /* and end with */.
+
+->Any text between /* and */ will be ignored by JavaScript
+
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+in my web page:
+*/
+document.getElementById("myH").innerHTML = "My First Page";
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+->typeof is a keyword that will show that which datatype of of your value belongs to
+   let jsfun = true;
+   let a = 40;
+
+   console.log(typeof true); //output: Boolean
+     console.log(typeof 23); //output: Number
+

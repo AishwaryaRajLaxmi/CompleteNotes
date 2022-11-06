@@ -1,0 +1,17 @@
+## linking a javascript file to HTML
+
+->In HTML, JavaScript code is inserted between <script> and </script> tags
+
+->Old JavaScript examples may use a type attribute: <script type="text/javascript">.
+
+->The type attribute is not required. JavaScript is the default scripting language in HTML.
+
+->The src attribute specifies the URL of an external script file.
+
+If you want to run the same JavaScript on several pages in a web site, you should create an external JavaScript file, instead of writing the same script over and over again. Save the script file with a .js extension, and then refer to it using the src attribute in the <script> tag.
+
+Note: The external script file cannot contain the <script> tag.
+
+Note: Point to the external script file exactly where you would have written the script.
+
+-><script src="myscripts.js"></script>

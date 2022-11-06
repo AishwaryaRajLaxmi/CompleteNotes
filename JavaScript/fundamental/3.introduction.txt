@@ -1,0 +1,39 @@
+What is JavaScript?
+-------------------
+
+->JavaScript is the High level ,object oriented ,multiparadigm Programming Language for the Web.
+
+->JavaScript can update and change both HTML and CSS.
+
+->JavaScript can calculate, manipulate and validate data.
+
+->Designed by: Brendan Eich
+->Typing discipline: Dynamic, weak, duck
+
+->JavaScript is a lightweight programming language that web developers commonly use to create more dynamic interactions when developing web pages, applications, servers, and or even games.
+
+->Developers generally use JavaScript alongside HTML and CSS The scripting language works well with CSS in formatting HTML elements. However, JavaScript still maintains user interaction, something that CSS cannot do by itself.
+
+Note:-
+->we don't have to worry about complex stuff like memory management
+
+->instruct compiler to do the things
+
+->based on object for storing most kinds of data
+
+->it is high level that means we don't have to worry about complex stuff like memory management
+
+->Html is responsilble for the content ,CSS is responsible for the presentation that means how does will it look and the last one JavaScript is a real programming language building web applications
+
+->Modern JavaScript frameworks
+-FrontEnd
+ -React
+ -View
+ -Angular
+
+ ->BackEnd applications
+ -Node js
+
+ ->HTML and CSS are often called markup languages rather than programming languages, because they, at their core, provide markups for documents with very little dynamism.
+
+->JavaScript, on the other hand, is a dynamic programming language that supports Math calculations, allows you to dynamically add HTML contents to the DOM, creates dynamic style declarations, fetches contents from another website, and lots more.
