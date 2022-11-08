@@ -57,3 +57,25 @@ if (arr) {
   console.log("Hello World");
 } // Hello World
 // Here the empty arr is converted into a Boolean true
+
+//Type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);//using Number function will give the converted version of string to number
+
+console.log(Number("jonas"));//NaN(Not a number)
+console.log(typeof NaN);//Number
+console.log(String(23), 23);
+
+//Type coercion
+console.log("I am" + 23 + "years old"); //I am 23 years old
+//here in the above 23 will be converted to string,in js if we concatenate any number to string the no will automatically converted into string
+
+console.log("I am" + String(23) + "years old");
+console.log("23" - "10" - 3); //10
+//we we use minus operator it does opposite work it converts string into number
+console.log("23" / "2"); //11.5
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);//10
