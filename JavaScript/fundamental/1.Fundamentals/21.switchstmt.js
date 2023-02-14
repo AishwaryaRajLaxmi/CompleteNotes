@@ -1,7 +1,7 @@
 /*
 The switch statement executes a block of code depending on different cases.
 
-->In switch statement we paas an expression and compare the expression value with case vlaue and there is a match that case block will be executed
+->In switch statement we paas an expression and compare the expression value with case value and there is a match that case block will be executed
 
 ->The switch statement is often used together with a break or a default keyword(or both). these are both optional:
 

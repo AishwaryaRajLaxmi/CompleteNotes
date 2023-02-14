@@ -1,0 +1,55 @@
+->show dbs:-for showing all the databases
+
+->use dbName:-moving to particular database if not available creating the database.
+    
+     example:-use flights;
+
+->db.createCollection('collecionName'):-creating a coolection in database.
+     
+     example:-db.createCollection('flights');
+
+->db.flightData.insertOne({key-value-pair}):it will also create a collecion and insert data to it .
+
+    example:-
+    db.flightData.insertOne(
+  {
+    "departureAirport": "MUC",
+    "arrivalAirport": "SFO",
+    "aircraft": "Airbus A380",
+    "distance": 12000,
+    "intercontinental": true
+  });
+
+  ->it will return something like that and this id will be unique for each and every element and the id is an object.
+  -----------------------------------------------------------------------------------------------
+  "acknowledged":true,
+  "insertedId":ObjectId("5677fg3567dgt667");
+  -----------------------------------------------------------------------------------------------
+  
+
+  ->db.flightData.find():-it will return all data which is the particular collecion
+
+  ----------------------------------------------------------------------------------------------
+  -->MongoDb stores data in BSON format
+
+         JSON  vs BSON(Binary Data)
+
+         {
+            "name":"max",
+            "age":29
+         }
+  We have to write data in JSON format but MongoDb Drivers change data in BSON format internally      
+
+  ->We can also set id by own using _id and id must unique
+
+       example:-   
+ db.flightData.insertOne(
+  {
+    "departureAirport": "MUC",
+    "arrivalAirport": "SFO",
+    "aircraft": "Airbus A380",
+    "distance": 12000,
+    "intercontinental": true,
+    _id:"txl-1gr-2"
+  });
+
